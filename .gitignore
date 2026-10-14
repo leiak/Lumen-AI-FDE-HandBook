@@ -1,0 +1,82 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.tmp
+*.bak
+*.log
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node (如有)
+node_modules/
+dist/
+build/
+
+# 文档构建产物
+*.pdf
+*.epub
+_site/
+.docusaurus/
+
+# 环境变量
+.env
+.env.local
+*.pem
+*.key
+secrets.yaml
+
+# 操作系统
+.DS_Store?
+*.lock
+.fseventsd
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+$RECYCLE.BIN/
+
+# IDE
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/caches
+.idea/modules
+.idea/shelf
+
+# 大文件
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+
+# 评估数据 / 客户数据
+eval_data/
+customer_data/
+private/
+*.csv
+!examples/*.csv
